@@ -86,7 +86,7 @@ streamlit run app/streamlit_app.py
 ## Project structure
 
 ```text
-TextDNA/
+HireSense/
   app/
     streamlit_app.py
   config/
