@@ -1,0 +1,28 @@
+project:
+  name: "HireSense AI"
+  version: "1.0.0"
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  models: "models"
+  results: "results"
+
+data:
+  random_state: 42
+  sample_candidates: 220
+  sample_jobs: 28
+  sample_pairs: 2200
+
+matching:
+  required_skill_weight: 0.60
+  optional_skill_weight: 0.40
+  min_score_to_recommend: 65.0
+
+training:
+  test_size: 0.2
+  random_state: 42
+  model: "gradient_boosting"
+
+inference:
+  top_k_default: 10
