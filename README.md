@@ -110,10 +110,3 @@ HireSense/
   run_project.py
 ```
 
-## Resume-ready summary
-
-- Built a resume-to-job match engine to rank candidates using NLP and ML.
-- Combined semantic similarity with structured signals (skills, experience, education).
-- Implemented explainable scoring with matched and missing skill insights.
-- Trained and evaluated a classifier for shortlist quality.
-- Delivered an interactive dashboard for recruiter-facing candidate ranking.
